@@ -4,7 +4,8 @@ let Schema = mongoose.Schema;
 let message = new Schema({
   author: String,   
   message: String,
-  time: String
+  time: String,
+  frontId: String
 });
 
 const Message = mongoose.model('message', message);
